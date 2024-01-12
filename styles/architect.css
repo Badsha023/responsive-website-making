@@ -1,8 +1,23 @@
 /* work sans font form google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+/* shared styles */
+
 *{
     font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    color: #fff;
+    background: #FF900E;
+    /* 1.25rem=20px */
+    font-size: 1.25rem;
+    border-radius: 8px;
+    padding: 20px 25px;
+    /* eta dili cursor a hand icon asbe */
+    cursor: pointer;
+    border: 0;
+    
 }
 
 /* header styles */
@@ -61,5 +76,30 @@ nav li a{
     color:  #727272;
     /* font size 16px mane normal (1rem) ar font weight 400 maneo normal tai kisu add kora hoini */
 }
+.banner img{
+    width: 100%;
+    /* upor theke 20px neme asbe */
+    margin-top: 20px;
+}
 
+/* responsive media queries */
+/* for mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* tablet or medium devices */
+@media screen  and (min-width: 576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
 
