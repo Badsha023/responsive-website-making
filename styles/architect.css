@@ -4,3 +4,62 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+
+/* header styles */
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+/* nav holo parents tai er child change hoise */
+
+nav{
+    display: flex;
+    /* justify content kora holo 2 ta 2 side a jawar jonno */
+    justify-content: space-between;
+    /* horizontally align code */
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 2.8rem;
+    color: #131313;
+    font-weight: 700;
+}
+
+/* nav er vitor sudhu ul edit korar jonno eta kora holo */
+nav > ul{
+    display: flex;
+}
+/* nav er li er edit er jonno */
+/* 1rem =16px,and 1em= 11px */
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+/* anchor er design edit */
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner styles */
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    /* margin er maddhome page er center kora holo */
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color:  #131313;
+}
+.banner-description{
+    color:  #727272;
+    /* font size 16px mane normal (1rem) ar font weight 400 maneo normal tai kisu add kora hoini */
+}
+
+
