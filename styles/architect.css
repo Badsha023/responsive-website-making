@@ -208,7 +208,6 @@ footer{
     background: #FFF4E7;
     padding: 39px 410px;
     margin: 130px 240px;
-    display: flex;
 }
 
 /* responsive media queries */
@@ -235,7 +234,7 @@ footer{
     }
     .ten-years-badge{
         position: static;
-        max-width: 150px;
+        max-width: 280px;
         
     }
     .teams-content, .facts-card-container{
@@ -246,8 +245,11 @@ footer{
         gap: 20px;
     }
     footer{
-        width: 100%;
         text-align: center;
+        width: 50%;
+        margin-left: 0;
+        padding: 10px 100px;
+        margin-top: 30px;
     }
 }
 
@@ -263,6 +265,13 @@ footer{
     .sponsors-img-container
     {
         flex-direction: column;
+    }
+    footer{
+        text-align: center;
+        width: 40%;
+        margin: 0 auto;
+        padding: 20px 120px;
+        margin-bottom: 40px;
     }
 }
 
